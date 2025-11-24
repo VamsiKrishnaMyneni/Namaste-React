@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Restro-card */
+
+.restro-card {
+    border: 1px solid #e2e2e2;
+    border-radius: 8px;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.restro-logo {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.restro-name {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+}
+
+.restro-card:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+}
