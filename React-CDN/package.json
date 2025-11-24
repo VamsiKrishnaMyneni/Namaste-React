@@ -1,0 +1,27 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "this is namaste react tutorial by Akshay Saini",
+  "homepage": "https://github.com/VamsiKrishnaMyneni/Namaste-React#readme",
+  "bugs": {
+    "url": "https://github.com/VamsiKrishnaMyneni/Namaste-React/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VamsiKrishnaMyneni/Namaste-React.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx parcel index.html",
+    "build": "npx parcel build index.html --dist-dir build"
+  },
+  "dependencies": {
+    "parcel": "^2.16.1",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-routing": "^0.0.6"
+  }
+}
